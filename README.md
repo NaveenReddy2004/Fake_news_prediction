@@ -1,18 +1,17 @@
 
-# 📰 Fake News Detection using ML & DL Models
+# Fake News Detection using ML & DL Models
 
 This project aims to detect **fake vs real news articles** using various Machine Learning classifiers and Deep Learning techniques like **LSTM**. A **Streamlit web application** is also included for real-time predictions.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Binary classification of news as **real (0)** or **fake (1)**
 - Text preprocessing pipeline (tokenization, stopword removal, stemming)
 - Multiple classifiers:  
   ✅ Logistic Regression  
   ✅ SVC (Support Vector Classifier)  
-  ✅ Decision Tree  
   ✅ Random Forest  
   ✅ LSTM  
   ✅ BERT (Optional / for future work)  
@@ -31,19 +30,19 @@ Dataset used: A combination of fake and real news datasets from sources like Kag
 
 ---
 
-## 🧠 Models Trained
+## Models Trained
 
 | Model              | Accuracy | Notes                        |
 |-------------------|----------|------------------------------|
-| Logistic Regression | ✅ Good baseline |
-| SVC                 | ✅ Accurate but slower |
-| Random Forest       | ✅ Best for interpretability |
-| LSTM                | ✅ Handles text sequences |
-| BERT (Optional)     | 🚧 Future enhancement |
+| Logistic Regression |  Good baseline |
+| SVC                 |  Accurate but slower |
+| Random Forest       |  Best for interpretability |
+| LSTM                |  Handles text sequences |
+| BERT (Optional)     |  Future enhancement |
 
 ---
 
-## 🔍 Preprocessing
+## Preprocessing
 
 ```python
 from keras.preprocessing.text import Tokenizer
@@ -57,7 +56,7 @@ X_pad = pad_sequences(X_seq, maxlen=300)
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/yourusername/fake-news-detector.git
@@ -67,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🖥️ Run Streamlit App
+## Run Streamlit App
 
 ```bash
 streamlit run main.py
@@ -77,7 +76,7 @@ Enter a news snippet in the textbox to predict if it's **real** or **fake** with
 
 ---
 
-## ✅ Example Prediction Output
+## Example Prediction Output
 
 > 🟢 **Real News** (93.28% confidence)  
 > 🔴 **Fake News** (87.45% confidence)
@@ -105,8 +104,3 @@ Enter a news snippet in the textbox to predict if it's **real** or **fake** with
 - Batch prediction from CSV input
 
 ---
-
-## 👤 Author
-
-**Naveen Kumar Reddy**  
-AI/ML Enthusiast | Fake News Detection Researcher
