@@ -45,13 +45,12 @@ Dataset used: A combination of fake and real news datasets from sources like Kag
 ## Preprocessing
 
 ```python
-from keras.preprocessing.text import Tokenizer
-from keras.utils import pad_sequences
+# Text Vectorization
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import train_test_split
 
-tokenizer = Tokenizer(num_words=5000)
-tokenizer.fit_on_texts(X)
-X_seq = tokenizer.texts_to_sequences(X)
-X_pad = pad_sequences(X_seq, maxlen=300)
+tfidf = TfidfVectorizer(stop_words='english',max_df=0.7)
+x_text = tfidf.fit_transform(news['content'])
 ```
 
 ---
