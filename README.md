@@ -1,7 +1,7 @@
 
 # Fake News Detection using ML & DL Models
 
-This project aims to detect **fake vs real news articles** using various Machine Learning classifiers and Deep Learning techniques like **LSTM**. A **Streamlit web application** is also included for real-time predictions the model used in streamlit is RandomForestClassifier whose accuracy was more than other models. 
+This project aims to detect **fake vs real news articles** using various Machine Learning classifiers and Deep Learning techniques like **LSTM**. A **Streamlit web application** is also included for real-time predictions the model used in streamlit isSupportVectorClassifier whose accuracy was more than other models. 
 
 ---
 
