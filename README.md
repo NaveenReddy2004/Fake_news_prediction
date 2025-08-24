@@ -77,8 +77,8 @@ Enter a news snippet in the textbox to predict if it's **real** or **fake** with
 
 ## Example Prediction Output
 
-> 🟢 **Real News** (93.28% confidence)  
-> 🔴 **Fake News** (87.45% confidence)
+>  **Real News** (93.28% confidence)  
+>  **Fake News** (87.45% confidence)
 
 ---
 
